@@ -1,17 +1,19 @@
 [![express logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/)
 
   Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).
+  This fork removes the www/bin and reverts to using node versus npm to start
 
   [![Gittip](http://img.shields.io/gittip/visionmedia.png)](https://www.gittip.com/visionmedia/)
 
-## Quick Start
+## Quick Start of this Fork
 
  The quickest way to get started with express is to utilize the executable `express(1)` to generate an application as shown below:
 
  Create the app:
 
-    $ npm install -g express-generator
-    $ express /tmp/foo && cd /tmp/foo
+    Clone the repo
+    cd to bin directory
+    $ express <your project name>
 
  Install dependencies:
 
@@ -19,7 +21,7 @@
 
  Rock and Roll
 
-    $ npm start
+    $ node app.js
 
 ## License
 
