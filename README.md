@@ -1,7 +1,7 @@
 [![express logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/)
 
   Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).
-  This fork removes the www/bin and reverts to using node versus npm to start
+  #This fork removes the www/bin and reverts to using node versus npm to start
 
   [![Gittip](http://img.shields.io/gittip/visionmedia.png)](https://www.gittip.com/visionmedia/)
 
@@ -13,15 +13,17 @@
 
     Clone the repo
     cd to bin directory
+
     $ express <your project name>
 
  Install dependencies:
 
+    cd to your newly created project directory
     $ npm install
 
  Rock and Roll
 
-    $ node app.js
+    $ node app.js 
 
 ## License
 
